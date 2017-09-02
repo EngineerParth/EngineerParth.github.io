@@ -824,7 +824,7 @@ STYLE SWITCHER FOR DEMO
 /* scaffolding */
 body {
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.55;
   color: #000000;
   background-color: #ffffff;
@@ -1248,13 +1248,40 @@ p {
   .lead {
     font-size: 24px;
   }
+  .text-small {
+    font-size: 1 em;
+  }
+  .text-large {
+    font-size: 1 em;
+  }
+  
 }
-.text-small {
+
+@media (min-width: 480px) and (max-width: 767px){
+  .text-small {
+    font-size: 0.9em;
+  }
+  .text-large {
+    font-size: 0.9em
+  }
+    
+}
+
+@media (min-width: 320px) and (max-width: 480px){
+  .text-small {
+    font-size: 0.8em;
+  }
+  .text-large {
+    font-size: 0.8em
+  }
+    
+}
+/* .text-small {
   font-size: 14px;
 }
 .text-large {
-  font-size: 20px;
-}
+  font-size: 18px;
+} */
 .text-italic {
   font-style: italic;
 }
@@ -1405,6 +1432,11 @@ p.social a.twitter {
   background-color: #3cf;
   border-color: #3cf;
 }
+p.social a.github {
+  background-color: #222222;
+  border-color: #222222;
+}
+
 p.social a.instagram {
   background-color: #cd4378;
   border-color: #cd4378;
