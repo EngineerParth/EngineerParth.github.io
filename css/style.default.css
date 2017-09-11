@@ -823,7 +823,8 @@ STYLE SWITCHER FOR DEMO
 }
 /* scaffolding */
 body {
-  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  /* font-family: "Open Sans", Helvetica, Arial, sans-serif; */
+  font-family: 'Lora', serif;
   font-size: 18px;
   line-height: 1.55;
   color: #000000;
@@ -1194,8 +1195,8 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: "Open Sans", Helvetica, Arial, sans-serif;
-  font-weight: 700;
+  font-family: 'Bitter', serif;
+  /* font-weight: 700; */
   line-height: 1.2;
   color: #000000;
 }
