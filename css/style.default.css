@@ -846,8 +846,8 @@ STYLE SWITCHER FOR DEMO
 /* scaffolding */
 body {
   /* font-family: "Open Sans", Helvetica, Arial, sans-serif; */
-  font-family: 'Lora', serif;
-  font-size: 18px;
+  font-family: 'Zilla Slab', serif;
+  font-size: 20px;
   line-height: 1.55;
   color: #000000;
   background-color: #ffffff;
@@ -1217,7 +1217,7 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: 'Bitter', serif;
+  font-family: 'Muli', sans-serif;
   /* font-weight: 700; */
   line-height: 1.2;
   color: #000000;
@@ -1225,11 +1225,11 @@ h6,
 h1,
 .h1 {
   /*font-size: 48px;*/
-  font-size: 48px;
+  font-size: 3em;
 }
 h2,
 .h2 {
-  font-size: 25px;
+  font-size: 1.5em;
 }
 h3,
 .h3 {
